@@ -1,29 +1,52 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <a
+        class="navbar-item"
+        href="https://bulma.io"
+      >
+        <img
+          src="https://bulma.io/images/bulma-logo.png"
+          width="112"
+          height="28"
+        >
       </a>
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+      <a
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div
+      id="navbarBasicExample"
+      class="navbar-menu"
+    >
       <div class="navbar-start">
+        <router-link
+          class="navbar-item"
+          to="/"
+        >
+          Prenota
+        </router-link>
 
-          <a class="navbar-item">
-            <router-link to="/">Prenota</router-link>
-          </a>
-
-
-
-          <a class="navbar-item">
-            <router-link to="/about">Documentation</router-link>
-          </a>
+        <router-link
+          class="navbar-item"
+          to="/about"
+        >
+          Documentation
+        </router-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -66,8 +89,8 @@
 
 <script>
 export default {
-  name: "Navbar"
-}
+  name: 'Navbar',
+};
 </script>
 
 <style scoped>

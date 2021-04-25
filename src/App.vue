@@ -28,8 +28,9 @@
 }
 </style>
 <script>
-import Navbar from "@/components/main/Navbar";
+import Navbar from '@/components/main/Navbar';
+
 export default {
-  components: {Navbar}
-}
+  components: { Navbar },
+};
 </script>

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:vue/recommended",
+    "airbnb-base"
+  ],
+  "plugins": [
+    "import",
+    "vue"
+  ],
+  "rules" : {
+    "no-new": 0,
+    "no-param-reassign": "off"
+  }
+}
